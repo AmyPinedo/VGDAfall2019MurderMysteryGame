@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - collectable
+  - ItemInventory
   layers:
   - Default
   - TransparentFX
@@ -13,11 +15,11 @@ TagManager:
   - UI
   - 
   - 
+  - Mouse Cursor
   - 
+  - Player
   - 
-  - 
-  - 
-  - 
+  - Items & Obstacles
   - 
   - 
   - 
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Mouse Cursor
+    uniqueID: 679628141
+    locked: 0
+  - name: UI
+    uniqueID: 1491638299
+    locked: 0
+  - name: UI 2
+    uniqueID: 1205808503
+    locked: 0
+  - name: Player
+    uniqueID: 4271889371
+    locked: 0
+  - name: Items and Obstacles
+    uniqueID: 1871364399
     locked: 0

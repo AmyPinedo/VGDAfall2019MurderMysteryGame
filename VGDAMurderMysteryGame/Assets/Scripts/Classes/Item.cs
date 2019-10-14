@@ -2,26 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Item
 {
-    private string mname;
-    private string mdesc;
-    public Sprite itemSprite;
+    public string itemName;
+    public Texture2D itemPicture;
+    public string itemDesc;
+    public ItemType typeOfItem;
 
-    public Item(string name, string desc, Sprite sprite)
+    public enum ItemType
     {
-        mname = name;
-        mdesc = desc;
-        itemSprite = sprite;
-    }
-
-    public string getName()
-    {
-        return mname;
-    }
-
-    public string getdesc()
-    {
-        return mdesc;
+        Clue,
+        UsableItem,
+        Useless
     }
 }
