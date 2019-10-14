@@ -1,49 +1,75 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
-    public float xMovement = 0.0f;
-    public float yMovement = 0.0f;
+    public GameObject cursor;
+    private bool movingX = false;
+    private bool movingY = false;
+
     void Start()
     {
-        xMovement = 0.0f;
-        yMovement = 0.0f;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         ///Constantly check for movement
-        transform.position += new Vector3(xMovement, yMovement, 0);
+        transform.position += new Vector3(globalVariables.xPlayerMovement, globalVariables.yPlayerMovement, transform.position.z);
 
         ///Horizontal movement
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && globalVariables.menuOpen == false)
         {
-            xMovement = -0.2f;
+            globalVariables.xPlayerMovement = -0.2f;
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) && globalVariables.menuOpen == false)
         {
-            xMovement = 0.2f;
+            globalVariables.xPlayerMovement = 0.2f;
         }
         else
         {
-            xMovement = 0.0f;
+            globalVariables.xPlayerMovement = 0.0f;
         }
 
         ///Vertical movement
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && globalVariables.menuOpen == false)
         {
-            yMovement = 0.2f;
+            globalVariables.yPlayerMovement = 0.2f;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) && globalVariables.menuOpen == false)
         {
-            yMovement = -0.2f;
+            globalVariables.yPlayerMovement = -0.2f;
+
         }
         else
         {
-            yMovement = 0.0f;
+            globalVariables.yPlayerMovement = 0.0f;
         }
+
+        ///INVENTORY MENU
+        if (Input.GetKey(KeyCode.E) && globalVariables.menuOpen == false)
+        {
+            globalVariables.menuOpen = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.E) && globalVariables.menuOpen == true)
+        {
+            globalVariables.menuOpen = false;
+        }
+
+        ///Change mouse variable
+        if (Input.GetMouseButtonDown(0))
+        {
+            globalVariables.mouseDown = true;
+            print("Mouse is down");
+        }
+        else
+        {
+            globalVariables.mouseDown = false;
+            print("Mouse is up");
+        }
+
+        print("Player: " + transform.position.z);
     }
 }
+   
