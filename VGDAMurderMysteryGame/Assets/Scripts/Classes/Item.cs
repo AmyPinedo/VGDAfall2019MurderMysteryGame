@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
+/**
+ * Item that will be stored in the player's inventory
+ */
 public class Item
 {
     public string itemName;
