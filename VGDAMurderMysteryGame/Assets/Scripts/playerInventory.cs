@@ -18,6 +18,7 @@ public class playerInventory : MonoBehaviour
 
     private void OnGUI()
     {
+        ///Displays inventory when the menuOpen variable is true
         if(globalVariables.menuOpen == true)
         {
             for (int i = 0; i < globalVariables.playerInventory.Count; i++)

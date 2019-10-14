@@ -29,7 +29,7 @@ public class pointerBehaviour : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D collision)
     {
- 
+        ///If a specific item is clicked-on, then it will be deleated and added to the player's inventory
         if (collision.gameObject.name == "testCollectable" && globalVariables.mouseDown == true)
         {
             globalVariables.playerInventory.Add(globalVariables.varInventory.items[0]);
