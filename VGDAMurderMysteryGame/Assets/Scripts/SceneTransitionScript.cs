@@ -9,40 +9,29 @@ public class SceneTransitionScript : MonoBehaviour
 {
     public Animator animator;
 
-    private int levelToLoad;
+    private int areaToLoad;
     
     private BoxCollider2D bc2D;
     
-    void Start()
-    {
-        bc2D = GetComponent<BoxCollider2D>();
-    }
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerMovement player = other.GetComponent<PlayerMovement>();
+        bc2D = GetComponent<BoxCollider2D>();
         
-        Scene CurrentScene = SceneManager.GetActiveScene();
+        PlayerMovement player = other.GetComponent<PlayerMovement>();
 
         if (player != null) ;
         {
-            FadeToScene();
+            Fade();
         }
     }
     
-    public void FadeToScene (int levelIndex)
+    public void Fade ()
     {
-        Scene CurrentScene = SceneManager.GetActiveScene();
-        
-        
         
         animator.SetTrigger("FadeOut");
         
-        levelToLoad = levelIndex;
     }
 
-    public void OnFadeComplete()
-    {
-        SceneManager.LoadScene(levelToLoad);
-    }
+    
 }
