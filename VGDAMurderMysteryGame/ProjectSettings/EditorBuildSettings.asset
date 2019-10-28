@@ -5,10 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Prototype.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: Assets/Scenes/Logan's Scene.unity
     guid: dee64ebbfa7eb493482c5402af6a2755
+  - enabled: 1
+    path: Assets/Scenes/Amy's Scenes/HouseScene.unity
+    guid: 1271ba39cd95240b89f25c98e043dbc9
+  - enabled: 1
+    path: Assets/Scenes/Amy's Scenes/MainStreetScene.unity
+    guid: 54857db521276408898a2bf768294b72
+  - enabled: 1
+    path: Assets/Scenes/Amy's Scenes/TownHallScene.unity
+    guid: 8cbb3cab1c5e04686bc85df413ac7843
+  - enabled: 1
+    path: Assets/Scenes/Amy's Scenes/Forest Scenes/Forest1Scene.unity
+    guid: 1d8f749e95f95458fafe6acf0d046745
+  - enabled: 1
+    path: Assets/Scenes/Amy's Scenes/Forest Scenes/Forest7Scene.unity
+    guid: ece881d5120454d4db643a2bbd5bd870
   m_configObjects: {}
