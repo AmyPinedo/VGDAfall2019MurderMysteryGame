@@ -11,4 +11,4 @@ public static class globalVariables
 
     public static float xPlayerMovement;
     public static float yPlayerMovement;
-}
+    }

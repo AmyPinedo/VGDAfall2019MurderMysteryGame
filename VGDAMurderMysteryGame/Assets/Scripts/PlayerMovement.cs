@@ -66,10 +66,10 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             globalVariables.mouseDown = false;
-            print("Mouse is up");
+            //print("Mouse is up");
         }
 
-        print("Player: " + transform.position.z);
+        //print("Player: " + transform.position.z);
     }
 }
    

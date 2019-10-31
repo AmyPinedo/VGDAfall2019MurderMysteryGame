@@ -23,7 +23,7 @@ public class pointerBehaviour : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, a, 0.5f);
         }
 
-        print("Cursor: " + transform.position.z);
+        //print("Cursor: " + transform.position.z);
 
     }
 
