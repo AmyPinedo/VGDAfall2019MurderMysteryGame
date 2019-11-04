@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1253,12 +1253,12 @@ PrefabInstance:
     - target: {fileID: 5451396404021538537, guid: d6a86709fbb7350439923962659cb9d2,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: 679628141
       objectReference: {fileID: 0}
     - target: {fileID: 5451396404021538537, guid: d6a86709fbb7350439923962659cb9d2,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5451396404021538537, guid: d6a86709fbb7350439923962659cb9d2,
         type: 3}
@@ -1747,7 +1747,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2012292805}
   - component: {fileID: 2012292807}
-  - component: {fileID: 2012292806}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1769,14 +1768,6 @@ Transform:
   m_Father: {fileID: 664251055}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &2012292806
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012292804}
-  m_Enabled: 1
 --- !u!20 &2012292807
 Camera:
   m_ObjectHideFlags: 0
