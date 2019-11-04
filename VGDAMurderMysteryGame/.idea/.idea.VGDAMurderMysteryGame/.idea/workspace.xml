@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebc13036-c16e-456b-93ea-76e2e42a531d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VGDAMurderMysteryGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VGDAMurderMysteryGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VGDAMurderMysteryGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VGDAMurderMysteryGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ebc13036-c16e-456b-93ea-76e2e42a531d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -72,25 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/pointerBehaviour.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding>
-                <marker date="1572490114493" expanded="false" signature="6:78" ph="..." />
-                <marker date="1572490114493" expanded="true" signature="125:1217" ph="{...}" />
-                <marker date="1572490114493" expanded="true" signature="232:276" ph="{...}" />
-                <marker date="1572490114493" expanded="true" signature="334:786" ph="{...}" />
-                <marker date="1572490114493" expanded="true" signature="442:726" ph="{...}" />
-                <marker date="1572490114493" expanded="true" signature="841:1215" ph="{...}" />
-                <marker date="1572490114493" expanded="true" signature="1050:1201" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
@@ -140,7 +117,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Classes/inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/pointerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/playerInventory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -255,12 +231,12 @@
       <workItem from="1572224513010" duration="3377000" />
       <workItem from="1572459479446" duration="21913000" />
       <workItem from="1572494849552" duration="6431000" />
-      <workItem from="1572841429766" duration="245000" />
+      <workItem from="1572841429766" duration="470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46833000" />
+    <option name="totallyTimeSpent" value="47058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,15 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <marker date="1572490114493" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572490114493" expanded="true" signature="125:1217" ph="{...}" />
-            <marker date="1572490114493" expanded="true" signature="232:276" ph="{...}" />
-            <marker date="1572490114493" expanded="true" signature="334:786" ph="{...}" />
-            <marker date="1572490114493" expanded="true" signature="442:726" ph="{...}" />
-            <marker date="1572490114493" expanded="true" signature="841:1215" ph="{...}" />
-            <marker date="1572490114493" expanded="true" signature="1050:1201" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,6 +359,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1572841677270" expanded="false" signature="6:78" ph="..." />
+            <marker date="1572841677270" expanded="true" signature="115:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -407,17 +385,6 @@
             <marker date="1572841677266" expanded="true" signature="1188:1280" ph="{...}" />
             <marker date="1572841677266" expanded="true" signature="1381:1446" ph="{...}" />
             <marker date="1572841677266" expanded="true" signature="1526:1592" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1572841677270" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572841677270" expanded="true" signature="115:345" ph="{...}" />
           </folding>
         </state>
       </provider>
