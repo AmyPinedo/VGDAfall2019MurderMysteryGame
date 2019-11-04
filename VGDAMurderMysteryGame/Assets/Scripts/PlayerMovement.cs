@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
-    public GameObject cursor;
-    private bool movingX = false;
-    private bool movingY = false;
-
+    private float xMovement = 0.2f;
+    private float yMovement = 0.2f;
+    public Animator dialogueAnimator;
     void Start()
     {
 
@@ -15,36 +14,25 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ///Constantly check for movement
-        transform.position += new Vector3(globalVariables.xPlayerMovement, globalVariables.yPlayerMovement, transform.position.z);
-
         ///Horizontal movement
-        if (Input.GetKey(KeyCode.A) && globalVariables.menuOpen == false)
+        if (Input.GetKey(KeyCode.A) && globalVariables.menuOpen == false && dialogueAnimator.GetBool("isOpen") == false)
         {
-            globalVariables.xPlayerMovement = -0.2f;
+            transform.position += new Vector3(-xMovement, 0.0f, 0.0f);
         }
-        else if (Input.GetKey(KeyCode.D) && globalVariables.menuOpen == false)
+        else if (Input.GetKey(KeyCode.D) && globalVariables.menuOpen == false && dialogueAnimator.GetBool("isOpen") == false)
         {
-            globalVariables.xPlayerMovement = 0.2f;
-        }
-        else
-        {
-            globalVariables.xPlayerMovement = 0.0f;
+            transform.position += new Vector3(xMovement, 0.0f, 0.0f);
         }
 
         ///Vertical movement
-        if (Input.GetKey(KeyCode.W) && globalVariables.menuOpen == false)
+        if (Input.GetKey(KeyCode.W) && globalVariables.menuOpen == false && dialogueAnimator.GetBool("isOpen") == false)
         {
-            globalVariables.yPlayerMovement = 0.2f;
+            transform.position += new Vector3(0.0f, yMovement, 0.0f);
         }
-        else if (Input.GetKey(KeyCode.S) && globalVariables.menuOpen == false)
+        else if (Input.GetKey(KeyCode.S) && globalVariables.menuOpen == false && dialogueAnimator.GetBool("isOpen") == false)
         {
-            globalVariables.yPlayerMovement = -0.2f;
+            transform.position += new Vector3(0.0f, -yMovement, 0.0f);
 
-        }
-        else
-        {
-            globalVariables.yPlayerMovement = 0.0f;
         }
 
         ///INVENTORY MENU
@@ -57,19 +45,6 @@ public class PlayerMovement : MonoBehaviour
             globalVariables.menuOpen = false;
         }
 
-        ///Change mouse variable
-        if (Input.GetMouseButtonDown(0))
-        {
-            globalVariables.mouseDown = true;
-            print("Mouse is down");
-        }
-        else
-        {
-            globalVariables.mouseDown = false;
-            print("Mouse is up");
-        }
-
-        print("Player: " + transform.position.z);
     }
 }
    
