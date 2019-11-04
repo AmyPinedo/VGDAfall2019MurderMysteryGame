@@ -19,7 +19,8 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position += new Vector3(-xMovement, 0.0f, 0.0f);
         }
-        else if (Input.GetKey(KeyCode.D) && globalVariables.menuOpen == false && dialogueAnimator.GetBool("isOpen") == false)
+        else if (Input.GetKey(KeyCode.D) && globalVariables.menuOpen == false &&
+                 dialogueAnimator.GetBool("isOpen") == false)
         {
             transform.position += new Vector3(xMovement, 0.0f, 0.0f);
         }
@@ -29,7 +30,8 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position += new Vector3(0.0f, yMovement, 0.0f);
         }
-        else if (Input.GetKey(KeyCode.S) && globalVariables.menuOpen == false && dialogueAnimator.GetBool("isOpen") == false)
+        else if (Input.GetKey(KeyCode.S) && globalVariables.menuOpen == false &&
+                 dialogueAnimator.GetBool("isOpen") == false)
         {
             transform.position += new Vector3(0.0f, -yMovement, 0.0f);
 
@@ -44,23 +46,6 @@ public class PlayerMovement : MonoBehaviour
         {
             globalVariables.menuOpen = false;
         }
-
-<<<<<<< HEAD
-=======
-        ///Change mouse variable
-        if (Input.GetMouseButtonDown(0))
-        {
-            globalVariables.mouseDown = true;
-            print("Mouse is down");
-        }
-        else
-        {
-            globalVariables.mouseDown = false;
-            //print("Mouse is up");
-        }
-
-        //print("Player: " + transform.position.z);
->>>>>>> ec1d6b5da48f8b0e04f2b02eac56dc9aad982463
     }
 }
    

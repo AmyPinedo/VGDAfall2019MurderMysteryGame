@@ -1039,14 +1039,19 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Classes" t="Include">
+            <e p="Dialogue.cs" t="Include" />
             <e p="GlobalVariables.cs" t="Include" />
             <e p="inventory.cs" t="Include" />
             <e p="Item.cs" t="Include" />
           </e>
+          <e p="DialogueBox.cs" t="Include" />
+          <e p="DialogueInteractable.cs" t="Include" />
+          <e p="IndependentButtonBehavior.cs" t="Include" />
           <e p="playerInventory.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerTransport.cs" t="Include" />
           <e p="pointerBehaviour.cs" t="Include" />
+          <e p="testNpc.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
