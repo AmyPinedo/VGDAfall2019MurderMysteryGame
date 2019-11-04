@@ -8,3 +8,4 @@ public static class globalVariables
     public static bool menuOpen = false;
     public static inventory varInventory = GameObject.FindGameObjectWithTag("ItemInventory").GetComponent<inventory>();
 }
+
