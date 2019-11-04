@@ -9,4 +9,10 @@ public class DialogueInteractable : MonoBehaviour
     {
         FindObjectOfType<DialogueBox>().startDialogue(dialogue);
     }
+
+    private void OnMouseDown()
+    {
+        
+        Debug.Log("I have been clicked");
+    }
 }

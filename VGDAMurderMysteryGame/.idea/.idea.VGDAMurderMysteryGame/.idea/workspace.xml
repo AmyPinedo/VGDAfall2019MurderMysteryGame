@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc13036-c16e-456b-93ea-76e2e42a531d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Amy's Scenes/Final.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Amy's Scenes/Final.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueInteractable.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +36,8 @@
             <state relative-caret-position="105">
               <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1572841677270" expanded="false" signature="6:78" ph="..." />
-                <marker date="1572841677270" expanded="true" signature="115:345" ph="{...}" />
+                <marker date="1572842901200" expanded="false" signature="6:78" ph="..." />
+                <marker date="1572842901200" expanded="true" signature="115:347" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
@@ -85,6 +85,21 @@
                 <marker date="1572841677266" expanded="true" signature="1188:1280" ph="{...}" />
                 <marker date="1572841677266" expanded="true" signature="1381:1446" ph="{...}" />
                 <marker date="1572841677266" expanded="true" signature="1526:1592" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogueInteractable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <marker date="1572843311537" expanded="false" signature="6:78" ph="..." />
+                <marker date="1572843311537" expanded="true" signature="129:367" ph="{...}" />
+                <marker date="1572843311537" expanded="true" signature="193:270" ph="{...}" />
+                <marker date="1572843311537" expanded="true" signature="302:365" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,6 +134,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Classes/inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/playerInventory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -132,6 +148,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Classes/globalVariables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueInteractable.cs" />
       </list>
     </option>
   </component>
@@ -233,12 +250,12 @@
       <workItem from="1572224513010" duration="3377000" />
       <workItem from="1572459479446" duration="21913000" />
       <workItem from="1572494849552" duration="6431000" />
-      <workItem from="1572841429766" duration="569000" />
+      <workItem from="1572841429766" duration="925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47157000" />
+    <option name="totallyTimeSpent" value="47513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,8 +383,8 @@
         <state relative-caret-position="105">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <marker date="1572841677270" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572841677270" expanded="true" signature="115:345" ph="{...}" />
+            <marker date="1572842901200" expanded="false" signature="6:78" ph="..." />
+            <marker date="1572842901200" expanded="true" signature="115:347" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -387,6 +404,19 @@
             <marker date="1572841677266" expanded="true" signature="1188:1280" ph="{...}" />
             <marker date="1572841677266" expanded="true" signature="1381:1446" ph="{...}" />
             <marker date="1572841677266" expanded="true" signature="1526:1592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogueInteractable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <marker date="1572843311537" expanded="false" signature="6:78" ph="..." />
+            <marker date="1572843311537" expanded="true" signature="129:367" ph="{...}" />
+            <marker date="1572843311537" expanded="true" signature="193:270" ph="{...}" />
+            <marker date="1572843311537" expanded="true" signature="302:365" ph="{...}" />
           </folding>
         </state>
       </provider>
