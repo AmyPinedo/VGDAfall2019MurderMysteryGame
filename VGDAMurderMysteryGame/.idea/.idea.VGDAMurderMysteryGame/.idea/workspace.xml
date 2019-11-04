@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebc13036-c16e-456b-93ea-76e2e42a531d" name="Default Changelist" comment="" />
+    <list default="true" id="ebc13036-c16e-456b-93ea-76e2e42a531d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Amy's Scenes/Final.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Amy's Scenes/Final.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,12 +233,12 @@
       <workItem from="1572224513010" duration="3377000" />
       <workItem from="1572459479446" duration="21913000" />
       <workItem from="1572494849552" duration="6431000" />
-      <workItem from="1572841429766" duration="470000" />
+      <workItem from="1572841429766" duration="569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47058000" />
+    <option name="totallyTimeSpent" value="47157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
