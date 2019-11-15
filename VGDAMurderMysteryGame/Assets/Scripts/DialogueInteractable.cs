@@ -5,14 +5,15 @@ using UnityEngine;
 public class DialogueInteractable : MonoBehaviour
 {
     public Dialogue dialogue;
+    public GameObject dialogueMenu;
     public void startDialogue()
     {
-        FindObjectOfType<DialogueBox>().startDialogue(dialogue);
+        dialogueMenu.GetComponent<DialogueBox>().startDialogue(dialogue);
     }
 
     private void OnMouseDown()
     {
-        
-        Debug.Log("I have been clicked");
+
+        startDialogue();
     }
 }

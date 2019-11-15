@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1183091364239187667}
   - component: {fileID: 1702775011467175076}
+  - component: {fileID: 4670270497135238115}
   - component: {fileID: 3679865127148366049}
   - component: {fileID: -6885820101422093497}
   - component: {fileID: 916983659297337210}
@@ -91,6 +92,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4670270497135238115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906980921725053810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d53d593f33af3342a32a22d855b0ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
 --- !u!114 &3679865127148366049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +172,7 @@ MonoBehaviour:
     - I keep an eye on this part 'a town, and to be frank..
     - I don't like gamers like y'all in this part 'a town...
     name: 
+  dialogueMenu: {fileID: 0}
 --- !u!61 &-604996982241150906
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -10,6 +10,13 @@ public class Item
     public string itemDesc;
     public ItemType typeOfItem;
 
+    public Item(string name, Texture2D pic, string desc)
+    {
+        itemName = name;
+        itemPicture = pic;
+        itemDesc = desc;
+    }
+
     public enum ItemType
     {
         Clue,

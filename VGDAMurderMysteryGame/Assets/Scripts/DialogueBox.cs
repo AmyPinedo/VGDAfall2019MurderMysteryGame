@@ -10,25 +10,19 @@ public class DialogueBox : MonoBehaviour
     public TMP_Text dialogueName;
     public TMP_Text dialogueText;
     public Button dialogueNextButton;
-    public Animator animator;
+    public GameObject dialogueMenu;
 
     // Start is called before the first frame update
     void Start()
     {
         dialogueCurrent = new Queue<string>();
-        dialogueName.gameObject.SetActive(false);
-        dialogueText.gameObject.SetActive(false);
-        dialogueNextButton.gameObject.SetActive(false);
     }
 
 
     public void startDialogue(Dialogue d)
     {
 
-        animator.SetBool("isOpen", true);
-        dialogueName.gameObject.SetActive(true);
-        dialogueText.gameObject.SetActive(true);
-        dialogueNextButton.gameObject.SetActive(true);
+        dialogueMenu.GetComponent<menuBehavior>().openMenu();
 
 
         Debug.Log("Starting dialogue interaction with " + d.name);
@@ -54,10 +48,7 @@ public class DialogueBox : MonoBehaviour
     }
     public void endDialogue()
     {
-        dialogueName.gameObject.SetActive(false);
-        dialogueText.gameObject.SetActive(false);
-        dialogueNextButton.gameObject.SetActive(false);
-        animator.SetBool("isOpen", false);
+        dialogueMenu.GetComponent<menuBehavior>().closeMenu();
         Debug.Log("Dialogue interaction ended");
     }
 }

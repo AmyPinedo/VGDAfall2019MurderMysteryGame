@@ -7,6 +7,7 @@ TagManager:
   - collectable
   - ItemInventory
   - DialogueBox
+  - inventoryButton
   layers:
   - Default
   - TransparentFX
@@ -16,11 +17,11 @@ TagManager:
   - UI
   - 
   - 
-  - Mouse Cursor
   - 
-  - Player
   - 
-  - Items & Obstacles
+  - 
+  - 
+  - 
   - 
   - 
   - 

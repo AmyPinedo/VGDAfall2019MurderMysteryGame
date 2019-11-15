@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1071888181768619226}
   - component: {fileID: 5451396404021538537}
   - component: {fileID: -8197640916622647129}
+  - component: {fileID: 2866885348573190839}
   - component: {fileID: -9003466419291476199}
   - component: {fileID: -4682803253320809681}
   m_Layer: 10
@@ -48,6 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d196d5b51ba3ef42929adb993ce5f89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInventoryVar: []
+  varInventory: {fileID: 0}
 --- !u!114 &1071888181768619226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +63,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ada6f980a496c408cc6945dbbeac04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursor: {fileID: 1187945956889508680, guid: 76f4d9539c583b54d8dbe88dfd51ce27, type: 3}
+  dialogueBox: {fileID: 0}
+  menuOpen: 0
+  inventoryOpen: 0
 --- !u!212 &5451396404021538537
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -136,6 +141,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2866885348573190839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954384243716372407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d53d593f33af3342a32a22d855b0ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Player
 --- !u!50 &-9003466419291476199
 Rigidbody2D:
   serializedVersion: 4
