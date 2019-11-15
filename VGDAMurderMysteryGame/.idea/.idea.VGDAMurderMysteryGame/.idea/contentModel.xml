@@ -1038,15 +1038,20 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BehaviorInventory.cs" t="Include" />
+          <e p="BehaviorItem.cs" t="Include" />
           <e p="Classes" t="Include">
             <e p="Dialogue.cs" t="Include" />
-            <e p="GlobalVariables.cs" t="Include" />
             <e p="inventory.cs" t="Include" />
             <e p="Item.cs" t="Include" />
           </e>
+          <e p="Cluefinders.cs" t="Include" />
           <e p="DialogueBox.cs" t="Include" />
           <e p="DialogueInteractable.cs" t="Include" />
           <e p="IndependentButtonBehavior.cs" t="Include" />
+          <e p="menuBehavior.cs" t="Include" />
+          <e p="nameTagBehavior.cs" t="Include" />
+          <e p="nameTagHave.cs" t="Include" />
           <e p="playerInventory.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerTransport.cs" t="Include" />

@@ -6,9 +6,8 @@ using UnityEngine;
 public class PlayerTransport : MonoBehaviour
 {
     private BoxCollider2D bc2D;
-
-    [SerializeField]
-    private Animator animator;
+    
+    [SerializeField] private Animator animator;
 
     [SerializeField] private Vector2 locationToMoveTo;
     
@@ -30,14 +29,13 @@ public class PlayerTransport : MonoBehaviour
         
     }
 
-    private void Fade()
+    public void Fade()
     {
         animator.SetTrigger("FadeOut");
     }
 
     IEnumerator Transport(PlayerMovement player)
     {       
-        
         yield return new WaitForSeconds(1);
         
         player.transform.position = locationToMoveTo;
