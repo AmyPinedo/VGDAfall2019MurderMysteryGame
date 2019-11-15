@@ -248,14 +248,14 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160270679}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cd482a7254afc46aba405ec5f480d724, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2818,6 +2818,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d0d7666182d394ba30d6a5adc5b362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 
+  desc: 
 --- !u!4 &1334009642
 Transform:
   m_ObjectHideFlags: 0
