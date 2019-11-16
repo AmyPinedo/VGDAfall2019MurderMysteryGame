@@ -6,6 +6,8 @@ using UnityEngine;
 public class PlayerTransport : MonoBehaviour
 {
     private BoxCollider2D bc2D;
+
+    private bool fading = false; 
     
     [SerializeField] private Animator animator;
 
@@ -20,8 +22,9 @@ public class PlayerTransport : MonoBehaviour
     {        
         PlayerMovement player = other.GetComponent<PlayerMovement>();
         
-        if (player != null)
+        if (player != null && !fading)
         {
+            //Debug.Log("Player has entered going to fade out");
             Fade();
             
             StartCoroutine(Transport(player));
@@ -31,7 +34,9 @@ public class PlayerTransport : MonoBehaviour
 
     public void Fade()
     {
+        fading = true;
         animator.SetTrigger("FadeOut");
+        //Debug.Log("fading out");
     }
 
     IEnumerator Transport(PlayerMovement player)
@@ -41,6 +46,8 @@ public class PlayerTransport : MonoBehaviour
         player.transform.position = locationToMoveTo;
         
         animator.SetTrigger("HasMoved");
-        
+        //Debug.Log("fading in");
+        fading = false;
+
     }
 }

@@ -14,8 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        playerAudioSource = GetComponent<AudioSource>();
         rb2D = GetComponent<Rigidbody2D>();
+        playerAudioSource = GetComponent<AudioSource>();
     }
     
     // Update is called once per frame
@@ -59,7 +59,6 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!playerAudioSource.isPlaying)
             playerAudioSource.Play();
-            Debug.Log("playing sound");
         }
 
         else
@@ -67,7 +66,6 @@ public class PlayerMovement : MonoBehaviour
             if (playerAudioSource.isPlaying)
             {
                 playerAudioSource.Stop();
-                Debug.Log("stopping sound");
             }
         }
     }
