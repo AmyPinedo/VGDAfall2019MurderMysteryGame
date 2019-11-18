@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc13036-c16e-456b-93ea-76e2e42a531d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VGDAMurderMysteryGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VGDAMurderMysteryGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Background_Charicter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Background_Charicter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Nick.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Nick.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Officer_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Officer_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Officer_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Officer_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Officer_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/characters/Officer_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/Lipstick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/Lipstick.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/Pen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/Pen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/Sticky_notes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/Sticky_notes.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/download.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/key-clipart-1310382299_Clip_Art.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/key-clipart-1310382299_Clip_Art.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/pen-in-hand-png-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/pen-in-hand-png-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/pngtree-pink-lipstick-beautiful-lipstick-black-lipstick-bottle-hand-painted-lipstick-png-image_404638.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/props/pngtree-pink-lipstick-beautiful-lipstick-black-lipstick-bottle-hand-painted-lipstick-png-image_404638.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cluefinders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cluefinders.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="90">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <marker date="1573861056374" expanded="false" signature="6:97" ph="..." />
                 <marker date="1573861056374" expanded="true" signature="143:1195" ph="{...}" />
@@ -26,6 +50,20 @@
                 <marker date="1573861056374" expanded="true" signature="594:759" ph="{...}" />
                 <marker date="1573861056374" expanded="true" signature="798:908" ph="{...}" />
                 <marker date="1573861056374" expanded="true" signature="958:1193" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cluefinders.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <marker date="1574055251115" expanded="false" signature="6:78" ph="..." />
+                <marker date="1574055251115" expanded="true" signature="155:332" ph="{...}" />
+                <marker date="1574055251115" expanded="true" signature="309:330" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
-              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+              <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
               <folding>
                 <marker date="1573860198001" expanded="false" signature="6:78" ph="..." />
                 <marker date="1573860198001" expanded="true" signature="122:2218" ph="{...}" />
@@ -161,6 +199,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/playerInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/testNpc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cluefinders.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,6 +214,7 @@
         <option value="$PROJECT_DIR$/Assets/Cluefinders.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cluefinders.cs" />
       </list>
     </option>
   </component>
@@ -279,12 +319,12 @@
       <workItem from="1572841429766" duration="1202000" />
       <workItem from="1572925125917" duration="15000" />
       <workItem from="1572930340423" duration="3078000" />
-      <workItem from="1573853034732" duration="3417000" />
+      <workItem from="1573853034732" duration="3861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54300000" />
+    <option name="totallyTimeSpent" value="54744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,29 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Classes/Item.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1573799532624" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573799532624" expanded="true" signature="119:480" ph="{...}" />
-            <marker date="1573799532624" expanded="true" signature="301:390" ph="{...}" />
-            <marker date="1573799532624" expanded="true" signature="416:478" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Classes/inventory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1571285147651" expanded="false" signature="6:78" ph="..." />
-            <marker date="1571285147651" expanded="true" signature="139:192" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/testNpc.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -430,10 +447,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Classes/inventory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1571285147651" expanded="false" signature="6:78" ph="..." />
+            <marker date="1571285147651" expanded="true" signature="139:192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Classes/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1573799532624" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573799532624" expanded="true" signature="119:480" ph="{...}" />
+            <marker date="1573799532624" expanded="true" signature="301:390" ph="{...}" />
+            <marker date="1573799532624" expanded="true" signature="416:478" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
-          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
           <folding>
             <marker date="1573860198001" expanded="false" signature="6:78" ph="..." />
             <marker date="1573860198001" expanded="true" signature="122:2218" ph="{...}" />
@@ -454,8 +494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerTransport.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <marker date="1573861056374" expanded="false" signature="6:97" ph="..." />
             <marker date="1573861056374" expanded="true" signature="143:1195" ph="{...}" />
@@ -464,6 +504,18 @@
             <marker date="1573861056374" expanded="true" signature="594:759" ph="{...}" />
             <marker date="1573861056374" expanded="true" signature="798:908" ph="{...}" />
             <marker date="1573861056374" expanded="true" signature="958:1193" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cluefinders.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <marker date="1574055251115" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574055251115" expanded="true" signature="155:332" ph="{...}" />
+            <marker date="1574055251115" expanded="true" signature="309:330" ph="{...}" />
           </folding>
         </state>
       </provider>
