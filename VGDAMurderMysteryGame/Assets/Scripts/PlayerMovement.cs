@@ -32,9 +32,13 @@ public class PlayerMovement : MonoBehaviour
             transform.position += new Vector3(xMovement, 0.0f, 0.0f);
             playerMoving = true;
         }
+        else
+        {
+            playerMoving = false;
+        }
 
         ///Vertical movement
-        else if (Input.GetKey(KeyCode.W) && menuOpen == false && dialogueBox.GetComponent<menuBehavior>().isOpen == false && inventoryOpen == false)
+        if (Input.GetKey(KeyCode.W) && menuOpen == false && dialogueBox.GetComponent<menuBehavior>().isOpen == false && inventoryOpen == false)
         {
             transform.position += new Vector3(0.0f, yMovement, 0.0f);
             playerMoving = true;

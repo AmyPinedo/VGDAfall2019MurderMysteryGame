@@ -2785,7 +2785,7 @@ GameObject:
   - component: {fileID: 1493930254}
   - component: {fileID: 1493930253}
   m_Layer: 5
-  m_Name: hiim (The sherrif)
+  m_Name: DialogueSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3805,6 +3805,17 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[2]
       value: I don't much like gamers.
       objectReference: {fileID: 0}
+    - target: {fileID: 916983659297337210, guid: 1536dc9d5ae1b9742a1fccc039fdcb58,
+        type: 3}
+      propertyPath: dialogueMenuSprite
+      value: 
+      objectReference: {fileID: 1493930252}
+    - target: {fileID: 916983659297337210, guid: 1536dc9d5ae1b9742a1fccc039fdcb58,
+        type: 3}
+      propertyPath: dialogueImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7ea74c5ae15d8469d9bb30b412c446a1,
+        type: 3}
     - target: {fileID: 4670270497135238115, guid: 1536dc9d5ae1b9742a1fccc039fdcb58,
         type: 3}
       propertyPath: name

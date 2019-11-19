@@ -59,6 +59,7 @@ public class BehaviorInventory : MonoBehaviour
 
     public void openInventory()
     {
+        Debug.Log("Inventory Opened");
         inventoryButtonObject.gameObject.GetComponent<Animator>().Play("inventoryButtonExit");
         gameObject.GetComponent<Animator>().Play("inventoryEnter");
         playerObject.GetComponent<PlayerMovement>().inventoryOpen = true;
@@ -66,6 +67,7 @@ public class BehaviorInventory : MonoBehaviour
    
     public void closeInventory()
     {
+        Debug.Log("Inventory Closed");
         inventoryButtonObject.gameObject.GetComponent<Animator>().Play("inventoryButtonEnter");
         gameObject.GetComponent<Animator>().Play("inventoryExit");
         playerObject.GetComponent<PlayerMovement>().inventoryOpen = false;

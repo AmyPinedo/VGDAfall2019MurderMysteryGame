@@ -9,6 +9,7 @@ TagManager:
   - DialogueBox
   - inventoryButton
   - Cluefinder
+  - fadeBlack
   layers:
   - Default
   - TransparentFX
