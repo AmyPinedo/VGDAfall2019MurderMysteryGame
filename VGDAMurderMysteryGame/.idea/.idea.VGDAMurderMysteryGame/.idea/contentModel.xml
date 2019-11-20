@@ -1048,13 +1048,15 @@
           <e p="Cluefinders.cs" t="Include" />
           <e p="DialogueBox.cs" t="Include" />
           <e p="DialogueInteractable.cs" t="Include" />
-          <e p="IndependentButtonBehavior.cs" t="Include" />
           <e p="menuBehavior.cs" t="Include" />
           <e p="nameTagBehavior.cs" t="Include" />
           <e p="nameTagHave.cs" t="Include" />
+          <e p="playButtonBehavior.cs" t="Include" />
           <e p="playerInventory.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerTransport.cs" t="Include" />
+          <e p="sceneChanger.cs" t="Include" />
+          <e p="sceneChangerReg.cs" t="Include" />
           <e p="testNpc.cs" t="Include" />
         </e>
       </e>
