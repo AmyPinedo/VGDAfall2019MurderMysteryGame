@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 1071888181768619226}
   - component: {fileID: 5451396404021538537}
   - component: {fileID: -8197640916622647129}
-  - component: {fileID: 2866885348573190839}
   - component: {fileID: -9003466419291476199}
   - component: {fileID: -4682803253320809681}
   - component: {fileID: 3385070815743832217}
+  - component: {fileID: 114381227356304338}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -67,6 +67,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 0}
   menuOpen: 0
   inventoryOpen: 0
+  idleSprite: {fileID: 0}
 --- !u!212 &5451396404021538537
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -105,8 +106,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 2c3930c19e87e2949ab71e714280b09f, type: 3}
-  m_Color: {r: 0, g: 0.018627644, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 98cc12cf0b70a4bfe9b0cd6e6d772412, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -129,32 +130,19 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.062357426, y: 0.022675753}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0666667, y: 0.98333335}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.87528515, y: 0.89796066}
   m_EdgeRadius: 0
---- !u!114 &2866885348573190839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954384243716372407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d53d593f33af3342a32a22d855b0ade, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Player
 --- !u!50 &-9003466419291476199
 Rigidbody2D:
   serializedVersion: 4
@@ -315,3 +303,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &114381227356304338
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954384243716372407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 79381be2d5ebe4aa3a230a62f408c334, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

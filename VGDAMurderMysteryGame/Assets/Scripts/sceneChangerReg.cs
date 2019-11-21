@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class sceneChangerReg : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void playButtonScene()
     {
-        Debug.Log("Button Works");
-        sceneChanger.changeScene("Logan's Scene");
+        sceneChanger.changeScene("Final");
     }
 }
