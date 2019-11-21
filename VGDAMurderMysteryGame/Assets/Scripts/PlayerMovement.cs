@@ -11,11 +11,13 @@ public class PlayerMovement : MonoBehaviour
     private AudioSource playerAudioSource;
     private bool playerMoving = false;
     private Rigidbody2D rb2D;
+    private Animator anim;
 
     private void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
         playerAudioSource = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();
     }
     
     // Update is called once per frame
@@ -62,7 +64,9 @@ public class PlayerMovement : MonoBehaviour
         if (playerMoving == true)
         {
             if (!playerAudioSource.isPlaying)
-            playerAudioSource.Play();
+            {
+                playerAudioSource.Play();
+            }
         }
 
         else
