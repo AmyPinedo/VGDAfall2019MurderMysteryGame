@@ -13,15 +13,4 @@ public class playerInventory : MonoBehaviour
         playerObject = GameObject.FindGameObjectWithTag("Player");
         varInventory = GameObject.FindGameObjectWithTag("ItemInventory").GetComponent<inventory>();
     }
-    private void OnGUI()
-    {
-        ///Displays inventory when the menuOpen variable is true
-        if(playerObject.GetComponent<PlayerMovement>().menuOpen == true)
-        {
-            for (int i = 0; i < playerInventoryVar.Count; i++)
-            {
-                GUI.Label(new Rect(10, i * 20, 200, 50), playerInventoryVar[i].itemName);
-            }
-        }
-    }
 }

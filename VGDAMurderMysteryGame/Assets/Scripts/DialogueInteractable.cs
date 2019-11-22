@@ -9,15 +9,40 @@ public class DialogueInteractable : MonoBehaviour
     public GameObject dialogueMenuSprite;
     public Sprite dialogueImage;
 
+    private Color basicColor = Color.white;
+    private Color hoverColor = Color.gray;
+    private SpriteRenderer renderer;
+    private GameObject player;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     public void startDialogue()
     {
-        dialogueMenuSprite.GetComponent<SpriteRenderer>().sprite = dialogueImage; 
-        dialogueMenu.GetComponent<DialogueBox>().startDialogue(dialogue);
+        if (player.GetComponent<PlayerMovement>().menuOpen == false)
+        {
+            dialogueMenuSprite.GetComponent<SpriteRenderer>().sprite = dialogueImage;
+            dialogueMenu.GetComponent<DialogueBox>().startDialogue(dialogue);
+        }
     }
 
     private void OnMouseDown()
     {
+        if (player.GetComponent<playerInventory>().playerInventoryVar.Count < 4)
+        {
+            startDialogue();
+        }
+    }
 
-        startDialogue();
+    private void OnMouseEnter()
+    {
+        GetComponent<SpriteRenderer>().color = hoverColor;
+    }
+
+    private void OnMouseExit()
+    {
+        GetComponent<SpriteRenderer>().color = basicColor;
     }
 }

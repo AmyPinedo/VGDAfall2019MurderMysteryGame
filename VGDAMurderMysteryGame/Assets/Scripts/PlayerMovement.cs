@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     private float yMovement = 0.13f;
     public GameObject dialogueBox;
     public bool menuOpen = false;
-    public bool inventoryOpen;
     private AudioSource playerAudioSource;
     private bool playerMovingx = false;
     private bool playerMovingy = false;
@@ -25,13 +24,13 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         ///Horizontal movement
-        if (Input.GetKey(KeyCode.A) && menuOpen == false && dialogueBox.GetComponent<menuBehavior>().isOpen == false && inventoryOpen == false)
+        if (Input.GetKey(KeyCode.A) && menuOpen == false && menuOpen == false)
         {
             transform.eulerAngles = new Vector3(0.0f, 0.0f, 270);
             transform.position += new Vector3(-xMovement, 0.0f, 0.0f);
             playerMovingx = true;
         }
-        else if (Input.GetKey(KeyCode.D) && menuOpen == false && dialogueBox.GetComponent<menuBehavior>().isOpen == false && inventoryOpen == false)
+        else if (Input.GetKey(KeyCode.D) && menuOpen == false && menuOpen == false)
         {
             transform.eulerAngles = new Vector3(0.0f, 0.0f, 90);
             transform.position += new Vector3(xMovement, 0.0f, 0.0f);
@@ -43,13 +42,13 @@ public class PlayerMovement : MonoBehaviour
         }
 
         ///Vertical movement
-        if (Input.GetKey(KeyCode.W) && menuOpen == false && dialogueBox.GetComponent<menuBehavior>().isOpen == false && inventoryOpen == false)
+        if (Input.GetKey(KeyCode.W) && menuOpen == false && menuOpen == false)
         {
             transform.eulerAngles = new Vector3(0.0f, 0.0f, 180);
             transform.position += new Vector3(0.0f, yMovement, 0.0f);
             playerMovingy = true;
         }
-        else if (Input.GetKey(KeyCode.S) && menuOpen == false && dialogueBox.GetComponent<menuBehavior>().isOpen == false && inventoryOpen == false) 
+        else if (Input.GetKey(KeyCode.S) && menuOpen == false && menuOpen == false) 
         {
             transform.eulerAngles = new Vector3(0.0f, 0.0f, 0);
             transform.position += new Vector3(0.0f, -yMovement, 0.0f);

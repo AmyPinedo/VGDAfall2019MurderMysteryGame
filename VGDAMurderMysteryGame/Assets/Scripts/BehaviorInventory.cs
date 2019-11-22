@@ -24,24 +24,24 @@ public class BehaviorInventory : MonoBehaviour
         dialogueCurrent = new Queue<string>();
         playerObject = GameObject.FindGameObjectWithTag("Player");
         inventoryButtonObject = GameObject.FindGameObjectWithTag("inventoryButton");
-        playerObject.GetComponent<PlayerMovement>().inventoryOpen = false;
+        playerObject.GetComponent<PlayerMovement>().menuOpen = false;
     }
 
     public void Update()
     {
         if (playerObject.GetComponent<playerInventory>().playerInventoryVar.Count >= 1)
         {
-            item1TextName.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[0].itemName;
+            item1TextName.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[0].itemName + ":";
             item1TextDesc.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[0].itemDesc;
         }
         if (playerObject.GetComponent<playerInventory>().playerInventoryVar.Count >= 2)
         {
-            item2TextName.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[1].itemName;
+            item2TextName.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[1].itemName + ":";
             item2TextDesc.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[1].itemDesc;
         }
         if (playerObject.GetComponent<playerInventory>().playerInventoryVar.Count >= 3)
         {
-            item3TextName.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[2].itemName;
+            item3TextName.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[2].itemName + ":";
             item3TextDesc.text = playerObject.GetComponent<playerInventory>().playerInventoryVar[2].itemDesc;
         }
 
@@ -59,17 +59,23 @@ public class BehaviorInventory : MonoBehaviour
 
     public void openInventory()
     {
-        Debug.Log("Inventory Opened");
-        inventoryButtonObject.gameObject.GetComponent<Animator>().Play("inventoryButtonExit");
-        gameObject.GetComponent<Animator>().Play("inventoryEnter");
-        playerObject.GetComponent<PlayerMovement>().inventoryOpen = true;
+        if (playerObject.GetComponent<PlayerMovement>().menuOpen == false)
+        {
+            Debug.Log("Inventory Opened");
+            inventoryButtonObject.gameObject.GetComponent<Animator>().Play("inventoryButtonExit");
+            gameObject.GetComponent<Animator>().Play("inventoryEnter");
+            playerObject.GetComponent<PlayerMovement>().menuOpen = true;
+        }
     }
    
     public void closeInventory()
     {
-        Debug.Log("Inventory Closed");
-        inventoryButtonObject.gameObject.GetComponent<Animator>().Play("inventoryButtonEnter");
-        gameObject.GetComponent<Animator>().Play("inventoryExit");
-        playerObject.GetComponent<PlayerMovement>().inventoryOpen = false;
+        if (playerObject.GetComponent<PlayerMovement>().menuOpen == true)
+        {
+            Debug.Log("Inventory Closed");
+            inventoryButtonObject.gameObject.GetComponent<Animator>().Play("inventoryButtonEnter");
+            gameObject.GetComponent<Animator>().Play("inventoryExit");
+            playerObject.GetComponent<PlayerMovement>().menuOpen = false;
+        }
     }
 }

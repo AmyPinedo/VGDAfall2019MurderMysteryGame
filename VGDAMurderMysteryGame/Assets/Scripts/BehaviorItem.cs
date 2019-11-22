@@ -8,13 +8,13 @@ public class BehaviorItem : MonoBehaviour
     public string desc;
     private Color basicColor = Color.white;
     private Color hoverColor = Color.grey;
-    private Renderer renderer;
+    private SpriteRenderer renderer;
     private GameObject playerObject;
 
     private void Start()
     {
         playerObject = GameObject.FindGameObjectWithTag("Player");
-        renderer = GetComponent<Renderer>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnMouseDown()
