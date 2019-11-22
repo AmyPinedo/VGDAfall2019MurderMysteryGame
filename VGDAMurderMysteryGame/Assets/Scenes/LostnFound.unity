@@ -463,9 +463,10 @@ GameObject:
   - component: {fileID: 1686788244}
   - component: {fileID: 1686788243}
   - component: {fileID: 1686788242}
+  - component: {fileID: 1686788245}
   m_Layer: 5
   m_Name: keys
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -568,6 +569,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686788240}
   m_CullTransparentMesh: 0
+--- !u!114 &1686788245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686788240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d0d7666182d394ba30d6a5adc5b362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  desc: 
 --- !u!1 &2133383159
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,9 +595,10 @@ GameObject:
   - component: {fileID: 2133383163}
   - component: {fileID: 2133383162}
   - component: {fileID: 2133383161}
+  - component: {fileID: 2133383164}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -662,7 +678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9292453, g: 1, b: 0.9920488, a: 1}
+  m_Color: {r: 0.9575472, g: 1, b: 0.995283, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -685,3 +701,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133383159}
   m_CullTransparentMesh: 0
+--- !u!114 &2133383164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133383159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d0d7666182d394ba30d6a5adc5b362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  desc: 
