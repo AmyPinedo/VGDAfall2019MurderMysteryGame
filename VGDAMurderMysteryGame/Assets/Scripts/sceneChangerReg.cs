@@ -22,6 +22,21 @@ public class sceneChangerReg : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void DeskCF()
+    {
+        SceneManager.LoadScene(3);
+    }
+    
+    public void LostnFoundCF()
+    {
+        SceneManager.LoadScene(4);
+    }
+    
+    public void LibraryCF()
+    {
+        SceneManager.LoadScene(5);
+    }
+
     public void endGameButton()
     {
         Application.Quit();
