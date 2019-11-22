@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Logan's Scene.unity
     guid: dee64ebbfa7eb493482c5402af6a2755
   - enabled: 0
@@ -20,4 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final.unity
     guid: 4d99c6a73bd2f4fc1886f60940db6b14
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: 515f9b3f21e57412ebb64706d0abc999
+  - enabled: 1
+    path: Assets/Scenes/Desk.unity
+    guid: dd9c4d20b4f4b4c15acc1b0c0dec7673
+  - enabled: 1
+    path: Assets/Scenes/LostnFound.unity
+    guid: 3d59aa21f624b46929e2078a8ff02e57
+  - enabled: 1
+    path: Assets/Scenes/LibraryFiles.unity
+    guid: 3b8615d8fd078467d9e3357097b55aef
   m_configObjects: {}
